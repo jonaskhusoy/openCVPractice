@@ -39,3 +39,5 @@ cv.imshow("org", img2)
 cv.waitKey(0)
 cv.destroyAllWindows()
 
+
+x= 5
