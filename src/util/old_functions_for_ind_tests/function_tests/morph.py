@@ -1,3 +1,5 @@
+## morphology to try to find outline of fish
+
 import cv2 as cv
 import numpy as np
 
