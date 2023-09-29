@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-path = "C:\OpenCV\klippfisk_demo.jpg" #img path
+path = "C:\OpenCV\images\klippfisk_demo.jpg" #img path
 
 img = cv.imread(path) #cv img object
 

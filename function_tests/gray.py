@@ -25,6 +25,7 @@ contours = sorted(contours, key=cv.contourArea, reverse=True)
 largest_contour = contours[0]
 contour_area = cv.contourArea(largest_contour)
 print(contour_area," is area of fish.")
+
 cv.drawContours(img, [largest_contour], -1, (0,255,0))  # Draw the largest contour in green
 #display original image with contours
 cv.imshow("frame", img)
@@ -52,8 +53,7 @@ centroid = cv.circle(img,(cx, cy), 20, (255,0,0), 2)
 cv.imshow("centroid" , centroid)
 cv.waitKey()
 cv.destroyAllWindows()
-print("x-axis centroid: ", cx)
-print("y-axis ceontrid: " , cy)
+
 
 
 
